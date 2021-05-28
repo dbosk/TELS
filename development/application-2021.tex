@@ -1,0 +1,200 @@
+\documentclass[a4paper,swedish]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{babel}
+\usepackage{authblk}
+\usepackage[style=authoryear]{biblatex}
+\addbibresource{bibedu.bib}
+\addbibresource{bibliography.bib}
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+\title{Ansökan om utvecklingsmedel för utveckling av digitalt läromaterial}
+\author{Daniel Bosk}
+\affil{KTH EECS TCS, \texttt{dbosk@kth.se}}
+
+\begin{document}
+\maketitle
+
+\section*{Sammanfattning}
+
+Vi ansöker härmed om 715\,000 SEK för att utveckla digitala läromaterial för:
+\begin{enumerate}
+  \item Digitalt, återanvändbart introduktionsmaterial till den underliggande 
+    teorin och metoden, baserat på \textcite{NecessaryConditionsOfLearning}. 
+    Materialet ska användas för att utbilda handledare för att kunna delta.
+    (Materialet kan användas senare användas som en kurs i lärande.
+    Detaljer i \cref{intrometod}.)
+
+    120 timmar för undertecknad: 120\,000 SEK (LKP 55\%, OH 85\%)
+
+  \item Analysera och revidera (en första omgång) befintligt (digitalt) 
+    kursmaterial för DD1310 och DD1315 utifrån den underliggande lärandeteorin 
+    (variationsteori, \cite{NecessaryConditionsOfLearning}). (Detta innefattar 
+    även OLI-materialet som används i fler kurser i programmeringsteknik, mer 
+    om OLI:s relation till teorin nedan.)
+    
+    Baserat på analysen och revideringen behöver vi även utveckla interaktiva 
+    videos med frågor för att utvärdera studenternas lärande före och efter de 
+    har tagit sig igenom materialet, för att utvärdera materialet. Dessa frågor 
+    kan återanvändas för formativ bedömning för studenterna.
+    (Detaljer i \cref{analys}.)
+
+    Detta arbete ska avslutas senast i augusti 2021.
+
+    40 timmar för undertecknad: 40\,000 SEK (LKP 55\%, OH 85\%)
+
+    \(3\times 360\) timmar för handledare: 470\,000 SEK (150 SEK/h, 55\% LKP, 
+    85\% OH)
+
+  \item Genomföra flertalet iterationer (enligt metoden) av analys av resultat 
+    av genomförd undervisning och revidering av material inför ytterligare 
+    genomförande under höstens kursomgångar. Vi har två kursomgångar, vilket 
+    ger en möjlighet till att revidera och testa igen.
+    (Detaljer i \cref{iterationer}.)
+
+    4 h/vecka under P1 för undertecknad: 40\,000 SEK (LKP 55\%, OH 85\%)
+
+    \(3\times 4\) h/v under P1 för handledare: 55\,000 SEK (150 SEK/h, LKP 
+    55\%, OH 85\%)
+\end{enumerate} 
+
+\section{En introduktion till teori och metod}\label{intrometod}
+
+Vi avser att utveckla ett ett digitalt, asynkront men interaktivt lärmaterial.
+Innehållsmässigt avser vi att materialet ska att behandla teorin 
+(variationsteori, fenomenografi) och utvecklingsmetoden (learning studies).
+Formatmässigt kommer vi att använda de verktyg för digital undervisning 
+(FeedbackFruits) som vi avser att använda senare för materialet i 
+programmeringsteknik.
+Det blir således ett lärmaterial för att utveckla digital undervisning väl 
+grundat i lärandevetenskaplig teori och metod.
+
+FeedbackFruits tillhandahåller en uppsättning verktyg för digitaliserad 
+undervisning som \emph{kompletterar OLI}.
+Framförallt ger verktygen tillgång till asynkron interaktion mellan deltagare 
+och lärare, något som inte ingår i OLI-modellen.
+Exempelvis, interaktiva förinspelade föreläsningar och dokument, där studenter 
+kan ställa ställa frågor, starta diskussioner med andra studenter och lärare om 
+olika delar av en video eller ett dokument medan de tar sig igenom materialet 
+\emph{i egen takt} --- de kan då ta sig tiden att reflektera ordentligt.
+Det ger även läraren möjligheten att lägga in quiz på lämpliga ställen för att 
+utmana studenterna och testa effektiviteten av 
+lärmaterialet~\parencite{NecessaryConditionsOfLearning}.
+Se
+\begin{center}
+  \url{https://feedbackfruits.com/tool-overview}
+\end{center}
+för fler exempel.
+FeedbackFruits kommer att LTI-integreras under hösten och används redan av 
+flera andra lärosäten i Sverige.
+
+Den underliggande teorin och metodiken bygger på
+\citetitle{NecessaryConditionsOfLearning}
+av 
+\citeauthor{NecessaryConditionsOfLearning}~\parencite*{NecessaryConditionsOfLearning}.
+Jag har en kort sammanfattande video på
+\href{https://eu.feedbackfruits.com/groups/activity-course/d04b0280-e219-42c4-aee1-1272609bc4bd}{FeedbackFruits} 
+(bara att registrera ett konto)
+eller
+\href{https://youtu.be/_d42-kTKDcI}{YouTube}
+(samma video, 10 min vid dubbel hastighet, utan interaktion).
+Jag rekommenderar att se videon via FeedbackFruits trots att man måste 
+registrera ett konto (än så länge). Den visar avsiktligt på några funktioner 
+som kommer att användas i det interaktiva videomaterialet. 
+
+Materialet kommer att vara återanvändbart, asynkront, interaktivt och utvecklat 
+med learning studies. Materialet kan tillsammans med (summativ) examination 
+utgöra en formell kurs i lärandeteorin, forskningsmetoden och 
+undervisningsverktygen för andra lärare och handledare.
+
+Materialet behövs för att snabbt skola in handledare i teori och metod för att 
+de ska kunna delta i efterföljande arbete med kursmaterialet i 
+programmeringsteknik (se nedan). Jag kommer även att använda materialet för att 
+skola in övriga handledare i den underliggande pedagogiken i 
+programmeringsteknikkurserna jag ansvarar för.
+
+
+\section{Analys och revidering av lärmaterial i programmeringsteknik}%
+\label{analys}
+
+Variationsteori~\parencite[kap.~3]{NecessaryConditionsOfLearning} kan användas 
+för att analysera undervisningsmaterial och avgöra huruvida det går att lära 
+sig någonting överhuvudtaget från ett material under givna förutsättningar. 
+Teorin kan således även användas som guide för (om-)design av material.
+Även om fokus ligger på materialet som är utanför OLI, så måste OLI ingå i 
+analysen för att förstå möjligheterna för lärande i kursmaterialet som helhet. 
+Detta gör att analysresultaten även kan föras tillbaka till arbetet med OLI.
+
+Lärandemålen måste brytas ner i kritiska aspekter, eller variationsdimensioner, 
+och lärmaterialet behöver påvisa variation i dessa dimensioner för att 
+studenterna ska \emph{kunna} lära sig.
+Vi kan hitta dessa kritiska aspekter genom att observera studenter och, 
+speciellt, deras missförstånd.
+Detta då dessa aspekter är osynliga för dem som redan bemästrar stoffet.
+Några av de kritiska aspekterna finns redan dokumenterade i 
+forskningslitteraturen~\parencite[exempelvis][]{VariationTheoryInProgramming}, 
+men inte andra.
+
+Jag har dessutom en hypotes att dessa variationsdimensioner bör användas som 
+det som kallas för \enquote{skills} i OLI; och att användningen av OLI då blir 
+effektivare.
+Det var dock inte så vi utvecklade de \enquote{skills} som används i 
+OLI-materialet vi har idag.
+Så detta är något som sannolikt kan föras tillbaka till OLI-materialet.
+(Detta kanske kan vara en del av förklaringen att KTH bara kunde reducera tiden 
+med 25\% istället för CMU:s 50\% i artikeln av \cite{ReducedLearningTimeKTH}.)
+
+\Textcite{NecessaryConditionsOfLearning} hänvisar till litteratur som visar att 
+studenterna får ett väsentligen bättre behållande av lärandet när de måste 
+fundera innan de får något förklarat.
+Därav behöver vi utveckla uppgifter och svar som kan integreras i det digitala 
+materialet.
+Dessa uppgifter skiljer sig i natur från de stora frågedatabaser som behövs i 
+OLI.
+
+Vi behöver även utveckla frågor anpassade till de kritiska aspekterna som dels 
+kan användas som formativ bedömning för studenterna, så att de kan se om de 
+lärt sig, men även för oss att utvärdera effekten av materialet.
+
+Detta är det huvudsakligt tunga arbetet som behöver genomföras under sommaren.
+
+
+\section{Iterationer under kursen}\label{iterationer}
+
+Som nämndes ovan behöver vi utvärdera effekten hos materialet samt analysera 
+varför och revidera i de fall det inte haft önskad effekt.
+För detta behövs tid utöver ordinarie undervisningstid för att kunna analysera 
+och revidera inför att nästa klass ska ta del av materialet (bara dagarna 
+efter).
+
+
+\section*{Framtiden och en bredare kontext}
+
+Materialet kommer att tillgängliggöras under en Creative Commons-licens och 
+olika intressenter kommer i framtiden att bjudas in att bidra med forskning och 
+utveckling.
+
+Ambitionen är att kontinuerligt arbeta enligt teorin och metoden tillsammans 
+med handledare som rekryteras från civilingenjör- och lärarprogrammet (CL).
+Detta bidrar till deras utbildning, då denna lärandeteori och metod inte 
+behandlas i programmet; det bidrar även till deras erfarenhet av 
+forskningsbaserad utveckling av undervisning; de får även ett material de kan 
+använda sig av i sin undervisning och de kan då fortsätta att bidra forskning 
+och utveckling.
+
+Vi avser också att bjuda in skolor i regionen att använda materialet, då de 
+behöver undervisa precis det här stoffet från årskurs 7 i grundskolan.
+Men skolorna bjuds även in att delta i forskningen och utvecklingen av det.
+Vi har redan varit i kontakt med Upplands-Bro kommun, som är intresserade av 
+att involvera sina lärare i precis den här typen av verksamhet.
+
+Dessa utvecklingsmedel skulle alltså bidra till att snabbstarta detta projekt 
+som jag kallar \emph{Technology Enhanced Learning Studies}\footnote{%
+  Finns en två minuter kort video \href{https://youtu.be/uByy1fJ0Yro}{här}.
+}.
+
+
+\printbibliography
+\end{document}
