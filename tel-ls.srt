@@ -1,0 +1,246 @@
+1
+00:00:00,579 --> 00:00:03,150
+Hello, I'm Daniel. I'll
+tell you about a small project
+
+2
+00:00:03,250 --> 00:00:04,769
+of mine that I'm
+starting up, Technology Enhanced
+
+3
+00:00:04,869 --> 00:00:08,039
+Learning Studies. The name
+is a combination of two
+
+4
+00:00:08,140 --> 00:00:10,139
+fields. It's the first
+one being Technology Enhanced
+
+5
+00:00:10,239 --> 00:00:12,819
+Learning, which provides
+a synchronous yet interactive
+
+6
+00:00:13,539 --> 00:00:17,430
+learning material which is reusable
+and particularly
+
+7
+00:00:17,530 --> 00:00:19,969
+reproducible when it comes
+to studying it.
+
+8
+00:00:20,319 --> 00:00:23,069
+And this lends itself
+nicely to to the second half,
+
+9
+00:00:23,170 --> 00:00:25,350
+which is Learning
+Studies. And this is a research
+
+10
+00:00:25,450 --> 00:00:28,619
+methodology developed by Ference Marton at Gothenburg
+
+11
+00:00:28,719 --> 00:00:31,590
+University. It consists
+of combining the variation
+
+12
+00:00:31,690 --> 00:00:33,840
+theory of learning
+with design based research,
+
+13
+00:00:33,939 --> 00:00:36,569
+which is an iterative
+research methodology
+
+14
+00:00:36,669 --> 00:00:38,669
+to improve
+something like teaching.
+
+15
+00:00:39,700 --> 00:00:41,709
+And the idea is
+to combine these two
+
+16
+00:00:42,639 --> 00:00:44,460
+because they provide
+nice properties, particularly
+
+17
+00:00:44,560 --> 00:00:46,560
+the reproducibility
+and scalability.
+
+18
+00:00:47,049 --> 00:00:50,580
+And the idea is to create
+teaching material
+
+19
+00:00:50,680 --> 00:00:53,159
+for introductory
+programming, which is well
+
+20
+00:00:53,259 --> 00:00:56,819
+founded in pedagogy and didactic
+research. However,
+
+21
+00:00:56,919 --> 00:00:58,920
+the impact for KTH
+is, of course, I'll apply this
+
+22
+00:00:59,020 --> 00:01:02,500
+in my introductory
+programming courses. I have
+
+23
+00:01:02,950 --> 00:01:06,750
+a bit more than 300
+students per year and different types
+
+24
+00:01:06,849 --> 00:01:09,180
+of students, which is good
+for studying the effect
+
+25
+00:01:09,279 --> 00:01:11,430
+of the teaching. It covers three programs.
+
+26
+00:01:11,830 --> 00:01:15,160
+I also ... all of which are non-CS majors.
+
+27
+00:01:15,760 --> 00:01:18,750
+I recruit TAs from the CL
+program, which is nice
+
+28
+00:01:18,849 --> 00:01:21,150
+because they are well
+versed in other theories
+
+29
+00:01:21,250 --> 00:01:24,400
+of learning so they are equipped with
+
+30
+00:01:24,550 --> 00:01:26,489
+research methodology
+for studying learning,
+
+31
+00:01:26,589 --> 00:01:28,860
+but they will also learn
+and practice this methodology,
+
+32
+00:01:28,959 --> 00:01:30,840
+which is not
+included in their program.
+
+33
+00:01:30,940 --> 00:01:34,050
+And lastly, they also
+get teaching material
+
+34
+00:01:34,150 --> 00:01:36,150
+which they have
+helped develop and research
+
+35
+00:01:36,459 --> 00:01:39,209
+which is open to use,
+because it's open under a Creative
+
+36
+00:01:39,309 --> 00:01:42,510
+Commons license.
+However, it also impacts society
+
+37
+00:01:42,610 --> 00:01:44,680
+because we will open
+this teaching for schools,
+
+38
+00:01:44,830 --> 00:01:47,069
+because this
+teaching is available by design
+
+39
+00:01:47,169 --> 00:01:49,139
+and the schools must
+teach programming and the maths
+
+40
+00:01:49,239 --> 00:01:51,330
+classes starting already
+in the first year. However,
+
+41
+00:01:51,430 --> 00:01:54,630
+our material is relevant
+from seventh grade
+
+42
+00:01:54,730 --> 00:01:57,959
+and onwards. These CL TAs
+will eventually move
+
+43
+00:01:58,059 --> 00:02:00,430
+to schools where they can
+continue to contribute
+
+44
+00:02:00,669 --> 00:02:02,709
+and study this
+material and improving it.
+
+45
+00:02:02,919 --> 00:02:05,739
+And the schools, the teachers
+who
+
+46
+00:02:06,220 --> 00:02:08,009
+haven't taken the CL
+program, they can
+
+47
+00:02:08,110 --> 00:02:11,099
+contribute anyway as
+well, which is nice because then
+
+48
+00:02:11,199 --> 00:02:14,050
+they get into this
+research practice, which can benefit
+
+49
+00:02:14,289 --> 00:02:17,380
+improving teaching
+in other subjects and other
+
+50
+00:02:17,380 --> 00:02:20,500
+classes that they teach. And
+that was it. Thanks a lot.
+
