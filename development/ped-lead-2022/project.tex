@@ -1,0 +1,203 @@
+\section{Preliminary project idea}
+
+% # Preliminary project idea (1000 words)
+%
+% ## Contents
+%
+% - Tentative aims
+
+If admitted to the programme, I intend to work on an idea that I've had for a 
+while: \emph{Technology Enhanced Learning Studies}.
+It's a combination of {\ac{TEL}} and {\ac{LS}}.
+The main idea is to use the reusability and, consequently, the reproducibility 
+of interactive, digital teaching tools to perform scalable research-based 
+digital teaching development using learning studies~\autocite{LearningStudy} as 
+the underlying research methodology.
+
+
+\subsection{Learning studies}
+
+Learning studies~\autocite{LearningStudy} was developed by 
+\citeauthor{LearningStudy} and colleagues.
+The core concept originates from the Japanese lesson study, but was 
+complemented by Marton's variation theory of learning and extended by \ac{DBR}.
+
+Variation theory~\autocite{VariationTheory} allows us to analyze teaching 
+(recorded classroom teaching, textbooks, assignments, etc.) to determine if 
+learning is possible given the students' assumed prerequisites.
+Variation theory can thus also guide development of new materials.
+
+\Ac{DBR}~\autocite{DesignBasedResearch} allows us to iterate through designs of 
+teaching, making incremental improvements.
+The idea of learning study is to use variation theory for initial design, 
+analysis and redesign of each iteration.
+Each teaching step requires a pre- and post-test of students' knowledge to 
+measure any learning.
+
+
+\subsection{Technology-enhanced learning}
+
+\Textcite{MeaningsAreAcquired} tested variation theory by reproducing a failed 
+learning situation using a teaching tool.
+In a classroom teaching situation, the teacher had accidentally varied 
+something that was supposed to be invariant according to the theory.
+The post-test showed that the students didn't learn as intended by the teacher, 
+but rather didn't learn as expected according to the theory.
+They wanted to reproduce this situation.
+They did that by implementing the classroom situation as a computer program 
+that the students interacted with.
+In one group, the program acted in line with theory; in the other, the program 
+made the teacher's mistake.
+Indeed, the theory held true, they found the same results.
+
+There are several interesting points with this example, but we'll only cover 
+some of them.
+The first point I'd like to make, is that the teacher improvising can be good 
+and bad.
+In the example above, it's bad, but there are other examples where it's 
+good~\autocite[cf.][for good examples]{NecessaryConditionsOfLearning}.
+Interactive teaching tools (or \ac{TEL} tools), such as Online Learning 
+Initiative~\autocite{OLIstatistics} and FeedbackFruits\footnote{%
+  Both of which we have access to at KTH.
+}, can be used to do such programmed interactive teaching as 
+\citeauthor{MeaningsAreAcquired} did above.
+
+My second point is that we need to measure learning to see what parts of our 
+teaching has effect.
+The students must pass the exam, so they will make sure that they do that, with 
+or without our help.
+They will discuss with each other, find complementary sources, find better 
+sources altogether, and use those for studying instead of our teaching.
+We can't measure this with any course evaluation, that too blunt a tool.
+We can't use the course assessment either, we don't know if the students 
+studied with only the course material or if they get taught by a third party 
+(YouTube, StackExchange, etc.).
+
+My last point is about \ac{TEL} tools in general.
+\Ac{TEL} tools can easily and suitably replace the traditional lecture.
+Few students dare to ask questions during lectures, many students are lost and 
+confused before we reach the end of the lecture.
+Many students have pointed out the advantage of the lectures during the 
+pandemic as getting the video recording, so that they can watch it at their own 
+pace, pause or rewind as needed.
+Tools like FeedbackFruits allows the students to ask questions, discuss content 
+during the videos --- asynchronously with the teacher or their peers.
+FeedbackFruits can additionally integrate quizzes into a video, so that 
+students can test their understanding and the teacher can see how the students 
+are doing.
+
+
+\subsection{Technology-enhanced learning-studies}
+
+% - Intended results
+
+\paragraph{Intention}
+
+The idea of Technology-Enhanced Learning Studies is to systematically work with 
+\ac{TEL} tools and learning studies to continuously research the teaching in 
+our courses while we give them.
+For instance, we can integrate pre- and post-test of an interactive video into 
+the video itself, decreasing the risk of the students getting taught by a third 
+party or that there's a significant delay between the teaching and the tests.
+If we do this with other parts too, we can track where most learning happens 
+and find inefficiencies in our teaching.
+However, there is some work to do.
+
+% - What knowledge is needed
+
+\paragraph{What to investigate}
+
+For starters, what should the pre-test look like?
+For instance, if the students \emph{learn} something from the pre-test, what 
+would that mean for the evaluation of the teaching?
+Or should the pre-test be considered part of the teaching?
+Probably, it would make sense since that type of construction increases 
+learning and retention~\autocite{Szekely1950,BransfordSchwartz1999}.
+But then, what does the pre-test say about the learning material?
+How do we know if not only the pre-test was sufficient for the students' 
+learning?
+But maybe that doesn't matter?
+
+Another question, less philosophical and more geared towards practice: can we 
+develop a framework for how to easily integrate the pre- and post-tests into 
+our teaching using the teaching tools available (Canvas, FeedbackFruits, OLI)?
+
+A perhaps more interesting question, how can we systematically record the 
+students' mistakes, or rather misconceptions, to learn from them?
+The core of variation theory is that when teaching we must introduce variation 
+in one aspect of a learning objective at a time.
+The theory postulates\footnote{%
+  But with significant empirical support!
+} that each misconception correspond to not having discerned one or more 
+aspects of the learning objective.
+These should thus be identified and guide systematic development of the 
+teaching material.
+
+% - Plans for the work
+% - Collaborators
+
+%\paragraph{Collaborators}
+%
+%I already do work on OLI together with Ric Glassey (EECS TCS) and Olle Bälter 
+%(EECS MID).
+%That work would also benefit from this.
+%
+%I also do work with former colleagues of mine at Mid Sweden University on using 
+%FeedbackFruits to improve teaching and I plan to try this method with them.
+%
+%I would like to expand my collaborations.
+%There are two groups that are interesting:
+%Ference Marton's and Angelika Kullberg's groups at Gothenburg University and
+%UpCERG at Uppsala University.
+%Variation theory and learning study originates from Marton's group.
+%Kullberg has worked a lot with learning studies in mathematics.
+%UpCERG (e.g.~Anna Eckerdal) has done some research using variation theory in 
+%the area of computer science, but the results are limited.
+%Neither of them has had the strong technological aspect that I propose.
+
+
+\subsection{How can this project contribute to KTH?}
+
+% ## Motivation
+%
+% - How can the work contribute to KTH?
+% - Why is this important, what needs are addressed?
+% - What can my work contribute to the education programmes and the educational 
+%   environment?
+% - How does this project connect to the desired development at KTH and the 
+%   school? According to
+%     - current visions,
+%     - development plans,
+%     - action plans?
+%
+% - Life-long learning
+% - Student preferences
+
+Many things suggest that KTH must transition its teaching post-covid.
+Partly visions, e.g.~more digital teaching.
+But also the students like to have video complement, or even replace, the 
+traditional lectures.
+What I find the most interesting though, is the life-long learning perspective.
+There are would-be students who simply cannot study if the only option is the 
+traditional campus studies\footnote{%
+  I've had many such students while teaching distance courses given to distance 
+  study programmes.
+  I've had one such student at KTH, he started because he knew that with the 
+  pandemic, KTH would be forced to do distance education.
+}.
+
+This project will provide a framework for working with education technologies 
+that digitalize teaching, that we have access too and use them in the best 
+possible way from both a teaching and research perspective.
+
+%Why would we need to always to these pre- and post-tests, even when teaching is 
+%working?
+%Because prerequisites changes:
+%When the teacher changes in a prerequisite course, s/he might no longer cover 
+%that exact example that the students needed to see to understand our course.
+%When we ourselves updated the preceding module in the same course, we might 
+%have changed a something so that a critical aspect is no longer provided to the 
+%students.
+%When we gave that lecture, we didn't have time to cover the last example in the 
+%slides, thus preventing the students from 
+%learning~\autocite[cf.][above]{MeaningsAreAcquired}.
