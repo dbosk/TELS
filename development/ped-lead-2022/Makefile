@@ -4,12 +4,12 @@ all: application.pdf
 DEPENDS+=	bibedu.sty
 DEPENDS+=	bibedu.bib
 
-application.pdf: application.tex project.tex
+application.pdf: application.tex selfeval.tex project.tex
 application.pdf: ${DEPENDS}
 
 PREWC=pandoc -f latex -t markdown
 
-wc: project.tex
+wc: selfeval.tex project.tex
 
 
 INCLUDE_MAKEFILES=../../../makefiles
