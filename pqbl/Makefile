@@ -4,8 +4,14 @@ all: notes.pdf
 LATEXFLAGS+=	-shell-escape
 
 SRC+=		preamble.tex
+DEPENDS+=	bibliography.bib
+
+SRC+=		active.tex
+DEPENDS+=	active.bib
+
 SRC+=		testing.tex
 SRC+=		trying-first.tex
+
 
 notes.pdf: notes.tex
 notes.pdf: ${SRC}
