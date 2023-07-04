@@ -1,0 +1,55 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[british]{babel}
+\usepackage{booktabs}
+
+\usepackage[natbib,style=authoryear-comp,maxbibnames=99]{biblatex}
+\addbibresource{bibedu.bib}
+\addbibresource{bibliography.bib}
+
+\usepackage[all]{foreign}
+\renewcommand{\foreignfullfont}{}
+\renewcommand{\foreignabbrfont}{}
+
+\usepackage{newclude}
+\usepackage{import}
+
+\usepackage[strict]{csquotes}
+\usepackage[single]{acro}
+\DeclareAcronym{TEL}{
+  short=TEL,
+  long=Technology Enhanced Learning,
+}
+\DeclareAcronym{TELS}{
+  short=TELS,
+  long=Technology Enhanced Learning Study,
+  long-plural=Technology Enhanced Learning Studies,
+}
+
+\usepackage{subcaption}
+
+\usepackage[noend]{algpseudocode}
+\usepackage{xparse}
+
+\let\email\texttt
+
+\usepackage[outputdir=ltxobj]{minted}
+\setminted{autogobble}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{thmtools}
+\usepackage[unq]{unique}
+\DeclareMathOperator{\powerset}{\mathcal{P}}
+
+\usepackage[binary-units]{siunitx}
+
+\usepackage[capitalize]{cleveref}
+
+\newcommand\hitem{%
+  \leavevmode%
+  {\usebeamercolor[fg]{structure}%
+  \usebeamertemplate{itemize item}}\hspace{0.5em}%
+}
